@@ -8,7 +8,6 @@ import moment from "moment";
 
 const { DateTime } = require("luxon");
 
-
 //Loads the date on top of page at page load
 $(window).on("load", function () {
   var currentDay = moment().format("MMMM dddd Do YYYY");
@@ -68,9 +67,6 @@ $(window).on("load", function () {
   });
 });
 class TimeBlocks extends React.Component {
-
-
-
   render() {
     return (
       <Container>
